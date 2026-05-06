@@ -2,6 +2,7 @@ name: Dependency Review (Reusable)
 
 on:
   workflow_call:
+  pull_request:
 
 permissions:
   contents: read
