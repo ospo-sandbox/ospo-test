@@ -1,6 +1,7 @@
 vulnerability-check: false
 license-check: true
 deny-licenses:
+  # Copyleft
   - GPL-2.0
   - GPL-2.0-only
   - GPL-2.0-or-later
@@ -10,3 +11,9 @@ deny-licenses:
   - AGPL-3.0
   - AGPL-3.0-only
   - AGPL-3.0-or-later
+  # Commercial / source-available
+  - BUSL-1.1
+  - Elastic-2.0
+  - SSPL-1.0
+  - PolyForm-Noncommercial-1.0.0
+  - PolyForm-Small-Business-1.0.0
