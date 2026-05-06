@@ -1,4 +1,4 @@
-name: Dependency Review (Reusable)
+name: License check
 
 on:
   workflow_call:
