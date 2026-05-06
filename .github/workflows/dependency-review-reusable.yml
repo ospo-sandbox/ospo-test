@@ -17,15 +17,4 @@ jobs:
       - name: Dependency Review
         uses: actions/dependency-review-action@v4
         with:
-          vulnerability-check: false
-          license-check: true
-          deny-licenses: >-
-            GPL-2.0,
-            GPL-2.0-only,
-            GPL-2.0-or-later,
-            GPL-3.0,
-            GPL-3.0-only,
-            GPL-3.0-or-later,
-            AGPL-3.0,
-            AGPL-3.0-only,
-            AGPL-3.0-or-later
+          config-file: ospo-sandbox/ospo-test/.github/dependency-review-config.yml@main
