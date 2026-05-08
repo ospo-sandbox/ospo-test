@@ -1,5 +1,3 @@
-vulnerability-check: false
-license-check: true
 deny-licenses:
   # Copyleft
   - GPL-2.0
