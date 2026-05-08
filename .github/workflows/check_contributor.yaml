@@ -27,7 +27,7 @@ jobs:
             exit 0
           fi
 
-          WHITELIST_URL="https://raw.githubusercontent.com/ospo-sandbox/ospo-test/.github//contributor_whitelist.yaml"
+          WHITELIST_URL="https://raw.githubusercontent.com/ospo-sandbox/ospo-test/main/.github/contributor_whitelist.yaml"
           curl -fsSL "${WHITELIST_URL}" -o /tmp/whitelist.yaml
 
           CLA_HIT=$(yq '.cla_signers[] | select(. == env(PR_AUTHOR))' /tmp/whitelist.yaml || true)
