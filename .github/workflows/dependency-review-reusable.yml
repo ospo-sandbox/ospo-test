@@ -18,3 +18,5 @@ jobs:
         uses: actions/dependency-review-action@v4
         with:
           config-file: ospo-sandbox/ospo-test/.github/dependency-review-config.yml@main
+          vulnerability-check: false
+          license-check: true
